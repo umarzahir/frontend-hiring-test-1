@@ -1,0 +1,71 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: AR;
+  src: url("../assets/fonts/AvenirLTStd-Black.otf");
+}
+
+body {
+font-family: AR;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+ .table > .thead {
+  --bs-table-bg : red !important;
+}
+
+.add-btn{
+  background-color: #4F46F8;
+  color: white;
+  width: 90px;
+  outline: none;
+  border: none;
+}
+
+.arc{
+  background-color: #EDFBF9;
+  color: #98E6DE;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.unarc{
+  background-color: #EEEEEE;
+  color: #B6B6B6;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.duaraion{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
